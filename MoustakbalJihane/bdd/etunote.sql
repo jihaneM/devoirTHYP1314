@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client: localhost
--- Généré le : Mar 17 Décembre 2013 à 14:50
+-- Généré le : Mar 17 Décembre 2013 à 15:12
 -- Version du serveur: 5.5.16
 -- Version de PHP: 5.3.8
 
@@ -19,32 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Base de données: `etunote`
 --
-
--- --------------------------------------------------------
-
---
--- Structure de la table `cours`
---
-
-CREATE TABLE IF NOT EXISTS `cours` (
-  `id_cour` char(10) NOT NULL DEFAULT '',
-  `nom_cour` char(15) DEFAULT NULL,
-  `salle` char(15) DEFAULT NULL,
-  PRIMARY KEY (`id_cour`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Structure de la table `etudiants`
---
-
-CREATE TABLE IF NOT EXISTS `etudiants` (
-  `id_etudiant` int(11) NOT NULL AUTO_INCREMENT,
-  `nom` char(15) DEFAULT NULL,
-  `prenom` char(15) DEFAULT NULL,
-  PRIMARY KEY (`id_etudiant`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
